@@ -1,0 +1,139 @@
+.Cont {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Cont {
+    padding: 1rem;
+    display: block;
+  }
+
+  .idNotifications {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .identity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .identity p {
+    color: #515251;
+    font-size: 1.5rem;
+  }
+
+  .notifications {
+    font-size: 1.5rem;
+    color: #11453B;
+    background-color: #F2F1F1;
+    padding: 0.3rem 0.5rem;
+    border-radius: 12px;
+    position: relative;
+  }
+
+  .notifications div {
+    background-color: #EA4E4B;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 7px;
+    right: 12px;
+  }
+
+  .balance {
+    background: url(../../../assets/images/Vector.png), #11453B;
+    padding: 2rem;
+    background-size: cover;
+    margin: 1.5rem 0;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .balance>p {
+    color: #DAE9D0;
+  }
+
+  .amount {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    color: #FFFFFF;
+  }
+
+  .amount p {
+    font-size: 1.3rem;
+  }
+
+  .balance button {
+    display: block;
+    width: 100%;
+    background-color: #D9EBCD;
+    color: #11453B;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+
+  .quickStats>h3 {
+    color: #515251;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    gap: 1rem;
+  }
+
+  .stat {
+    background-color: #F2F1F1;
+    width: 90%;
+    padding: 0.7rem 1rem;
+    border-radius: 0.8rem;
+  }
+
+  .stat p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .quickActions {
+    margin: 1rem 0;
+  }
+
+  .quickActions>h3 {
+    color: #515251;
+  }
+
+  .actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 0;
+    row-gap: 2rem;
+  }
+
+  .action {
+    text-align: center;
+  }
+
+  .action p {
+    color: #515251;
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+  }
+
+  .actionIcon {
+    width: fit-content;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.7rem 1.3rem;
+    border-radius: 15px;
+  }
+}

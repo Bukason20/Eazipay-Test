@@ -1,0 +1,143 @@
+.Cont {
+  background-color: #F2F1F1;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.businessProfile {
+  color: #515251;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.companyCont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 1rem;
+  border: 0.5px solid #E7E8E7
+}
+
+.companyCont>p {
+  border: 0.5px solid #E7E8E7;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #515251;
+}
+
+.companyCont>p.active {
+  background-color: #F0F7EB;
+  color: black;
+}
+
+.companyProfile {
+  margin: 2rem 0;
+}
+
+.companyProfile>div {
+  border-radius: 20px;
+}
+
+.companyProfile>div>h2 {
+  color: #515251;
+  border-bottom: 1px solid #E7E8E7;
+  padding: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+.companyProfile form {
+  border: 1px solid #E7E8E7;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.inputGrp {
+  margin: 1.5rem 0;
+  position: relative;
+  overflow: visible;
+}
+
+.inputGrp input {
+  display: block;
+  border: 1px solid #11453B;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  width: 100%;
+  outline: none;
+}
+
+.inputGrp label {
+  position: absolute;
+  top: -10px;
+  left: 5%;
+  background-color: white;
+  padding: 0 0.5rem;
+  color: #8D8E8D;
+}
+
+.registerBtns {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.registerBtns button {
+  width: 90%;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  background-color: #E7E8E7;
+  box-shadow: 0px 4px 8px 0px #AAAAAA14;
+}
+
+.registerBtns button.active {
+  background-color: #11453B;
+  color: white;
+}
+
+.upload {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.upload button {
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  border: 1px solid #11453B;
+  color: #11453B;
+  border-radius: 10px;
+}
+
+.formBtns {
+  display: flex;
+  gap: 1rem;
+}
+
+.formBtns button {
+  width: 90%;
+  padding: 0.7rem 0;
+  border-radius: 20px;
+  border: 1px solid #11453B;
+  color: #11453B;
+}
+
+.formBtns button.active {
+  color: white;
+  background-color: #11453B;
+}
+
+.upload p {
+  font-size: 0.8rem;
+  color: #4E4E4E;
+}
+
+.editLogo {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}

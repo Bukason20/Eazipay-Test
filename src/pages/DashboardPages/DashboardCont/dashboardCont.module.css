@@ -1,0 +1,153 @@
+.Cont {
+  display: flex;
+  height: 100vh;
+  overflow: auto;
+}
+
+.sidebar {
+  background-color: white;
+  height: 100vh;
+  width: 20%;
+  box-shadow: 4px 0px 25px 0px #AAAAAA14;
+
+}
+
+.navlinks li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #515251;
+  padding: 1rem;
+  border-bottom: 1px solid #E7E8E7;
+  gap: 0.5rem;
+  height: 4rem;
+  position: relative;
+}
+
+.navlinks li a div {
+  height: 100%;
+  width: 0.2rem;
+  background-color: #11453B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.navlinks li a.active {
+  background: linear-gradient(0deg, #E7E8E7, #E7E8E7), linear-gradient(0deg, rgba(240, 247, 235, 0.5), rgba(240, 247, 235, 0.5));
+  color: #11453B;
+  font-weight: 600;
+}
+
+.navlinks li a.active>div {
+  display: block;
+}
+
+
+
+.Cont main {
+  width: 80%;
+  background-color: #F9FAFC;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0px 4px 25px 0px #0000000D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.notifyAvatar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.notifications {
+  position: relative;
+  font-size: 1.5rem;
+  height: fit-content;
+  overflow: visible;
+}
+
+.notifications p {
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0;
+  right: -2px;
+  background-color: #C92F02;
+  color: white;
+  padding: 0.1rem 0.3rem;
+  border-radius: 50%;
+}
+
+.notifications img {
+  font-size: 3rem;
+}
+
+.Cont main>div {
+  padding: 3rem 4rem;
+}
+
+.bottomBar {
+  display: none;
+}
+
+/* --------------------------------------------------------MEDIA QUERY---------------------------------------------------- */
+@media screen and (max-width: 600px) {
+  .Cont {
+    display: block;
+    position: relative;
+    background-color: white;
+  }
+
+  .Cont main>div {
+    padding: 2rem 0;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .Cont main {
+    width: 100%;
+    background-color: white;
+  }
+
+
+  .bottomBar {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -8px 12px 0px #656C7D14;
+    padding: 2rem 1rem;
+    z-index: 300;
+  }
+
+  .mobileLinks {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobileLinks li a {
+    color: #8D8E8D;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+
+  .mobileLinks li a.active {
+    color: #11453B;
+    font-weight: 600;
+  }
+}

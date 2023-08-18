@@ -1,0 +1,158 @@
+.Cont>h2 {
+  text-align: center;
+  border-bottom: 1px solid #E7E8E7;
+  padding-bottom: 2rem;
+}
+
+.totalEmployeesCont {
+  padding: 0 1rem;
+}
+
+.totalEmployees {
+  background: url(../../../assets/images/Vector.png), #11453B;
+  padding: 1.5rem;
+  background-size: cover;
+  margin: 1.5rem 0;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.totalEmployees>p:nth-child(1) {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.totalEmployees>p:nth-child(2) {
+  color: white;
+  font-size: 2rem;
+}
+
+.employeeBtns {
+  display: flex;
+  border: 1px solid #E7E8E7;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem;
+  margin: 0 1rem;
+  border-radius: 0.8rem;
+  gap: 1rem;
+}
+
+.employeeBtns button {
+  width: 80%;
+  padding: 0.6rem 0;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #F2F1F1;
+  color: #11453B;
+  font-weight: 600;
+}
+
+.employeeBtns button.active {
+  background-color: #11453B;
+  color: white;
+}
+
+.searchCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.search {
+  width: 90%;
+  position: relative;
+}
+
+.search input {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: 0.4px solid #2C3E53;
+  padding: 0.5rem;
+  padding-right: 1.5rem;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  background-color: white;
+}
+
+.filter {
+  background-color: #F2F1F1;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
+  color: #8D8E8D;
+  height: fit-content;
+}
+
+.employees {
+  border-top: 1px solid #E7E8E7;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.actionIcons {
+  display: flex;
+  align-items: center;
+}
+
+.actionIcons .icon {
+  border-right: 1px solid #E8E9EB;
+  padding: 0 1rem;
+  height: fit-content;
+}
+
+.select {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.actionIcons p {
+  padding: 1rem;
+}
+
+.employees>div {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #E7E8E7;
+}
+
+.employeeInfo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.employeeInfo>p {
+  color: #11453B;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.employee>p {
+  margin-bottom: 0.5rem;
+  color: #515251;
+}
+
+.employee>p:nth-child(1) {
+  color: #292A29;
+  font-size: 1.2rem;
+}
